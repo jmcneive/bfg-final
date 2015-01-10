@@ -1,0 +1,29 @@
+body {
+    background-color: gold;
+}
+html {
+  padding: 20px;
+}
+.alfie {
+    background-color: white;
+}
+.bronco {
+    background-color: brown;
+}
+.chuck {
+    background-color: pink;
+}
+.dennis {
+    background-color: orange;
+}
+.bubba {
+  height: 30em;
+  @include media(min-width 320px max-width 480px, 6) {
+    height: 15em;
+  }
+}
+h1.colin {
+    font-size: 20vw;
+    width: 60vw;
+    color: white;
+}

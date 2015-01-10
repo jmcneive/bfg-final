@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){setTimeout(function(){t("body").toggleClass("anim-start")},500),setInterval(function(){t("body").removeClass("anim-start"),setTimeout(function(){t("body").addClass("anim-start")},50)},5e3)});
