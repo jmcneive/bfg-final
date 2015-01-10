@@ -1,0 +1,19 @@
+/* Main color theme */
+/* ---- CSS color names */
+/* Primary: MediumSeaGreen */ 
+/* Secondary: DarkGreen */
+/* Tertiary: DarkViolet */
+/* Alert: AquaMarine */
+/* Button: DarkMagenta */ 
+
+$clr-mediumseagreen: MediumSeaGreen;
+$clr-aquamarine: AquaMarine;
+$clr-darkgreen: DarkGreen;
+$clr-darkmagenta: DarkMagenta;
+$clr-darkviolet: DarkViolet;
+
+$palette-primary: $clr-mediumseagreen;
+$palette-secondary: $clr-darkgreen;
+$palette-tertiary: $clr-darkviolet;
+$palette-alert: $clr-aquamarine;
+$palette-button: $clr-darkmagenta;

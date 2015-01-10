@@ -1,8 +1,5 @@
 body {
-    background-color: gold;
-}
-html {
-  padding: 20px;
+    background-color: white;
 }
 .alfie {
     background-color: white;
@@ -18,12 +15,70 @@ html {
 }
 .bubba {
   height: 30em;
-  @include media(min-width 320px max-width 480px, 6) {
-    height: 15em;
-  }
+  // @include media(min-width 320px max-width 480px, 6) {
+  //   height: 15em;
+  // }
 }
 h1.colin {
     font-size: 20vw;
     width: 60vw;
+    color: white;
+}
+
+/* ------------------------ Hero panel */
+// .hero__wrapper {
+//     position: fixed;
+// }
+.hero__wrapper--slide {
+    height: 50vh;
+    border: 1px dashed red;
+}
+article.type__system--round {
+    h1.title__card--logo {
+        border: 3px solid white;
+        border-radius: 50%;
+        display: block;
+        width: 7rem;
+        height: 7rem;
+        margin: 0 auto;
+        padding-top: .5em;
+        // font-size: 3em;
+        font-size: golden-ratio(28px, 1);
+        line-height: 1.5;
+        font-weight: 700;
+     }
+}
+.title__card {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.title__card--wrap {
+    position: relative;
+    top: 15vmin;
+}
+.title__card--wrap {
+    .title__card--name {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    font-size: golden-ratio(16px, 1);
+    font-weight: 700;
+    }
+}
+
+/* ------- Hero logo --- */
+.hero__title--logo {
+    display: inline-block;
+    width: 10em;
+    height: 3em;
+    // border: 1px solid red;
+    margin: 2em;
+    background: url('../img/logos/alv-rtn-wht-circle-name.svg')no-repeat center;
+    background-size: contain;
+}
+.hero__title--name {
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
     color: white;
 }

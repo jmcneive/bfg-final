@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="304px" height="319px" viewBox="0 0 304 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 1 + Oval 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Path-1-+-Oval-1" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+            <path d="M58,238.240234 L126.537109,66 L173.167492,66 L242.443359,238.888672 L189.037109,239.777344 L149.628906,132.277344 L111.814453,238.074219 L58,238.240234 Z" id="Path-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-1" stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" cx="150" cy="157.5" rx="150" ry="157.5"></ellipse>
+        </g>
+    </g>
+</svg>
