@@ -1,9 +1,8 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
-    sass = require('gulp-ruby-sass'),
+    sass = require('gulp-sass'),
     bitters = require('node-refills').includePaths,
-    plumber = require('gulp-plumber'),
-    autoprefixer = require('gulp-autoprefixer');
+    plumber = require('gulp-plumber');
 
 // Scripts task
 // Uglifies
@@ -19,15 +18,11 @@ gulp.task('scripts', function() {
 gulp.task('sass', function() {
   gulp.src('assets/scss/**/**/**/*.scss')
     .pipe(plumber())
-    .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
-        cascade: true
-    }))
     .pipe(sass({
       style: 'nested',
       lineNumbers: true
 }))
-  .pipe(gulp.dest('css/'));
+  .pipe(gulp.dest('assets/css/'));
 });
 
 // Watch task

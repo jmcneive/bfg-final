@@ -150,6 +150,8 @@ $palette-diffs: palette-diff($base-palette);
   background: linear-gradient(to right, $color-stops);
 }
 
+
+
 // Palettes
 // Change a value to see the palette adjusted
 .test-1 { @include draw-palette(mediumseagreen) }

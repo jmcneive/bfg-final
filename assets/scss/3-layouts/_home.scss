@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: $palette-primary;
 }
 .alfie {
     background-color: white;
@@ -23,6 +23,9 @@ h1.colin {
     font-size: 20vw;
     width: 60vw;
     color: white;
+}
+.home__greeting, .home__greeting--sub {
+    text-align: center;
 }
 
 /* ------------------------ Hero panel */
