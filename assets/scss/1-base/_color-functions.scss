@@ -154,11 +154,11 @@ $palette-diffs: palette-diff($base-palette);
 
 // Palettes
 // Change a value to see the palette adjusted
-.test-1 { @include draw-palette(mediumseagreen) }
-.test-2 { @include draw-palette(aquamarine) }
-.test-3 { @include draw-palette(darkgreen) }
-.test-4 { @include draw-palette(darkmagenta) }
-.test-5 { @include draw-palette(darkviolet) }
+.test-1 { @include draw-palette($palette-tertiary) }
+.test-2 { @include draw-palette($palette-secondary) }
+.test-3 { @include draw-palette($palette-primary) }
+.test-4 { @include draw-palette($palette-alert) }
+.test-5 { @include draw-palette($palette-button) }
 // .test-6 { @include draw-palette(silver) }
 
 

@@ -6,14 +6,22 @@
 /* Alert: AquaMarine */
 /* Button: DarkMagenta */ 
 
+/* Color palettes */
 $clr-mediumseagreen: MediumSeaGreen;
 $clr-aquamarine: AquaMarine;
 $clr-darkgreen: DarkGreen;
 $clr-darkmagenta: DarkMagenta;
 $clr-darkviolet: DarkViolet;
 
-$palette-primary: $clr-mediumseagreen;
-$palette-secondary: $clr-darkgreen;
-$palette-tertiary: $clr-darkviolet;
-$palette-alert: $clr-aquamarine;
-$palette-button: $clr-darkmagenta;
+$clr-orchid: #DA70D6;
+$clr-orangered: #FF4500;
+$clr-yellow: #FFFF00;
+$clr-limegreen: #32CD32;
+$clr-saddlebrown: #8B4513;
+
+/* Current color theme */
+$palette-primary: $clr-yellow;
+$palette-secondary: $clr-orangered;
+$palette-tertiary: $clr-orchid;
+$palette-alert: $clr-limegreen;
+$palette-button: $clr-saddlebrown;

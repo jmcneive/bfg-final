@@ -1,8 +1,8 @@
 body {
-    background-color: $palette-primary;
+    background-color: white;
 }
 .alfie {
-    background-color: white;
+    background-color: dodgerblue;
 }
 .bronco {
     background-color: brown;
@@ -19,12 +19,20 @@ body {
   //   height: 15em;
   // }
 }
-h1.colin {
+
+/* ---------- Copy */
+.home__greeting--copy {
+    padding: 0 15%;
+    text-align: center;
+}
+
+/* ---------- Headings */
+h1.header__marquee {
     font-size: 20vw;
     width: 60vw;
-    color: white;
+    color: gold;
 }
-.home__greeting, .home__greeting--sub {
+h1.home__greeting, h2.home__greeting--sub {
     text-align: center;
 }
 

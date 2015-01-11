@@ -6843,6 +6843,8 @@ select {
 /* Tertiary: DarkViolet */
 /* Alert: AquaMarine */
 /* Button: DarkMagenta */
+/* Color palettes */
+/* Current color theme */
 /**
  * Function defining the difference between 2 colors
  *
@@ -6910,24 +6912,24 @@ select {
  * @requires {function} create-palette
  */
 .test-1 {
-  background: mediumseagreen;
-  background: linear-gradient(to right, #9eb8b0, #9eb8b0 14.28571%, #5d63be 14.28571%, #5d63be 28.57143%, #8d7284 28.57143%, #8d7284 42.85714%, #3cb371 42.85714%, #3cb371 57.14286%, #4b4f4d 57.14286%, #4b4f4d 71.42857%, #222423 71.42857%, #222423 85.71429%, #1a1c1b 85.71429%, #1a1c1b 100%); }
+  background: orchid;
+  background: linear-gradient(to right, #dbd6d9, #dbd6d9 14.28571%, #d2bda4 14.28571%, #d2bda4 28.57143%, #acafab 28.57143%, #acafab 42.85714%, #da70d6 42.85714%, #da70d6 57.14286%, #886d87 57.14286%, #886d87 71.42857%, #594859 71.42857%, #594859 85.71429%, #514050 85.71429%, #514050 100%); }
 
 .test-2 {
-  background: aquamarine;
-  background: linear-gradient(to right, #f7eeef, #f7eeef 14.28571%, #d7d8d2 14.28571%, #d7d8d2 28.57143%, #b1ddc9 28.57143%, #b1ddc9 42.85714%, #7fffd4 42.85714%, #7fffd4 57.14286%, #5dcca7 57.14286%, #5dcca7 71.42857%, #33a27d 71.42857%, #33a27d 85.71429%, #2f9673 85.71429%, #2f9673 100%); }
+  background: orangered;
+  background: linear-gradient(to right, #98b2ce, #98b2ce 14.28571%, #9a8d9e 14.28571%, #9a8d9e 28.57143%, #b66759 28.57143%, #b66759 42.85714%, #ff4500 42.85714%, #ff4500 57.14286%, #814129 57.14286%, #814129 71.42857%, #412115 71.42857%, #412115 85.71429%, #351b11 85.71429%, #351b11 100%); }
 
 .test-3 {
-  background: darkgreen;
-  background: linear-gradient(to right, #894277, #894277 14.28571%, #4e4842 14.28571%, #4e4842 28.57143%, #295123 28.57143%, #295123 42.85714%, #006400 42.85714%, #006400 57.14286%, #040b04 57.14286%, #040b04 71.42857%, #000000 71.42857%, #000000 85.71429%, #000000 85.71429%, #000000 100%); }
+  background: yellow;
+  background: linear-gradient(to right, #a698ce, #a698ce 14.28571%, #9e8d96 14.28571%, #9e8d96 28.57143%, #b6ab59 28.57143%, #b6ab59 42.85714%, #ffff00 42.85714%, #ffff00 57.14286%, #818129 57.14286%, #818129 71.42857%, #414115 71.42857%, #414115 85.71429%, #353511 85.71429%, #353511 100%); }
 
 .test-4 {
-  background: darkmagenta;
-  background: linear-gradient(to right, #4ea464, #4ea464 14.28571%, #545c63 14.28571%, #545c63 28.57143%, #652f6c 28.57143%, #652f6c 42.85714%, #8b008b 42.85714%, #8b008b 57.14286%, #290d29 57.14286%, #290d29 71.42857%, #000000 71.42857%, #000000 85.71429%, #000000 85.71429%, #000000 100%); }
+  background: limegreen;
+  background: linear-gradient(to right, #b0b6b2, #b0b6b2 14.28571%, #7496b7 14.28571%, #7496b7 28.57143%, #878887 28.57143%, #878887 42.85714%, #32cd32 42.85714%, #32cd32 57.14286%, #4a604a 57.14286%, #4a604a 71.42857%, #253125 71.42857%, #253125 85.71429%, #1e281e 85.71429%, #1e281e 100%); }
 
 .test-5 {
-  background: darkviolet;
-  background: linear-gradient(to right, #7dc07a, #7dc07a 14.28571%, #768589 14.28571%, #768589 28.57143%, #79459e 28.57143%, #79459e 42.85714%, #9400d3 42.85714%, #9400d3 57.14286%, #4c1e60 57.14286%, #4c1e60 71.42857%, #190a20 71.42857%, #190a20 85.71429%, #100614 85.71429%, #100614 100%); }
+  background: saddlebrown;
+  background: linear-gradient(to right, #757e90, #757e90 14.28571%, #577654 14.28571%, #577654 28.57143%, #64524a 28.57143%, #64524a 42.85714%, #8b4513 42.85714%, #8b4513 57.14286%, #2f231a 57.14286%, #2f231a 71.42857%, #000000 71.42857%, #000000 85.71429%, #000000 85.71429%, #000000 100%); }
 
 .test {
   margin: 1em 0;
@@ -7146,10 +7148,10 @@ article.type-system-sans {
     font-style: italic; }
 
 body {
-  background-color: MediumSeaGreen; }
+  background-color: white; }
 
 .alfie {
-  background-color: white; }
+  background-color: dodgerblue; }
 
 .bronco {
   background-color: brown; }
@@ -7163,12 +7165,18 @@ body {
 .bubba {
   height: 30em; }
 
-h1.colin {
+/* ---------- Copy */
+.home__greeting--copy {
+  padding: 0 15%;
+  text-align: center; }
+
+/* ---------- Headings */
+h1.header__marquee {
   font-size: 20vw;
   width: 60vw;
-  color: white; }
+  color: gold; }
 
-.home__greeting, .home__greeting--sub {
+h1.home__greeting, h2.home__greeting--sub {
   text-align: center; }
 
 /* ------------------------ Hero panel */
