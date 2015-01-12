@@ -6957,6 +6957,13 @@ body {
   margin: 40px auto;
   display: block;
   width: 28px; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .aniWrap {
+      display: none; } }
+  @media screen and (min-width: 481px) and (max-width: 880px) {
+    .aniWrap {
+      position: relative;
+      top: 20vh; } }
 
 .mouse {
   width: 28px;
@@ -7210,7 +7217,7 @@ body {
     .bubba {
       height: 15em; } }
 
-/* ---------- Copy */
+/* -------------- Copy */
 .home__greeting--copy {
   padding: 0 15%;
   text-align: center; }

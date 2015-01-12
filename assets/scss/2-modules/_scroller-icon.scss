@@ -1,69 +1,3 @@
-// #scrolldown {
-//   bottom: 40px;
-//   height: 100px;
-//   margin-left: -50px;
-//   position: absolute;
-//   left: 50%;
-//   text-align: center;
-//   width: 100px;
-//   z-index: 100;
-// }
-// #scrolldown p {
-//   font: 700 0.7em/1em 'Avenir',sans-serif;
-//   -webkit-animation-duration: 2s;
-//           animation-duration: 2s;
-//   -webkit-animation-fill-mode: both;
-//           animation-fill-mode: both;
-//   -webkit-animation-iteration-count: infinite;
-//           animation-iteration-count: infinite;
-//   -webkit-animation-name: scroll;
-//           animation-name: scroll;
-//   color: #000;
-// }
-// #scrolldown > p {
-//   text-transform: uppercase;
-//   text-indent: 3px;
-// }
-// .mouse {
-//   border: 2px solid #000;
-//   border-radius: 13px;
-//   display: block;
-//   height: 46px;
-//   left: 50%;
-//   margin: 10px 0 0 -13px;
-//   position: absolute;
-//   width: 26px;
-// }
-// .mouse span {
-//   display: block;
-//   font-size: 1.5em;
-//   margin: 6px auto;
-// }
-// @-webkit-keyframes scroll {
-//   0% {
-//     opacity: 1;
-//     -webkit-transform: translateY(0px);
-//             transform: translateY(0px);
-//   }
-//   100% {
-//     opacity: 0;
-//     -webkit-transform: translateY(10px);
-//             transform: translateY(10px);
-//   }
-// }
-// @keyframes scroll {
-//   0% {
-//     opacity: 1;
-//     -webkit-transform: translateY(0px);
-//             transform: translateY(0px);
-//   }
-//   100% {
-//     opacity: 0;
-//     -webkit-transfoxrm: translateY(10px);
-//             transform: translateY(10px);
-//   }
-// }
-
 body {
   background: #444;
 }
@@ -71,6 +5,13 @@ body {
   margin: 40px auto;
   display: block;
   width: 28px;
+  @include media(min-width 320px max-width 480px, 6) {
+    display: none;
+  }
+  @include media(min-width 481px max-width 880px, 8) {
+    position: relative;
+    top: 20vh;
+  }
 }
 
 .mouse {
