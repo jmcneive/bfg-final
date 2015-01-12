@@ -11,13 +11,13 @@ body {
     background-color: pink;
 }
 .dennis {
-    background-color: orange;
+    background-color: $clr-gold;
 }
 .bubba {
   height: 30em;
-  // @include media(min-width 320px max-width 480px, 6) {
-  //   height: 15em;
-  // }
+  @include media(min-width 320px max-width 480px, 6) {
+    height: 15em;
+  }
 }
 
 /* ---------- Copy */
@@ -27,19 +27,22 @@ body {
 }
 
 /* ---------- Headings */
-h1.header__marquee {
-    font-size: 20vw;
+.wrapper__hero {
+    h1.header__marquee {
+    font-size: 30vmin;
     width: 60vw;
-    color: gold;
+    // text-transform: uppercase;
+    color: $clr-gold;
+    }
 }
 h1.home__greeting, h2.home__greeting--sub {
     text-align: center;
 }
 
 /* ------------------------ Hero panel */
-// .hero__wrapper {
-//     position: fixed;
-// }
+.wrapper__hero {
+    height: 100vh;
+}
 .hero__wrapper--slide {
     height: 50vh;
     border: 1px dashed red;

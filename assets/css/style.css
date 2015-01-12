@@ -6844,6 +6844,7 @@ select {
 /* Alert: AquaMarine */
 /* Button: DarkMagenta */
 /* Color palettes */
+/*----------- Random colors */
 /* Current color theme */
 /**
  * Function defining the difference between 2 colors
@@ -6912,24 +6913,24 @@ select {
  * @requires {function} create-palette
  */
 .test-1 {
-  background: orchid;
-  background: linear-gradient(to right, #dbd6d9, #dbd6d9 14.28571%, #d2bda4 14.28571%, #d2bda4 28.57143%, #acafab 28.57143%, #acafab 42.85714%, #da70d6 42.85714%, #da70d6 57.14286%, #886d87 57.14286%, #886d87 71.42857%, #594859 71.42857%, #594859 85.71429%, #514050 85.71429%, #514050 100%); }
+  background: whitesmoke;
+  background: linear-gradient(to right, #ffffff, #ffffff 14.28571%, #ffffff 14.28571%, #ffffff 28.57143%, #fcfefe 28.57143%, #fcfefe 42.85714%, #f5f5f5 42.85714%, #f5f5f5 57.14286%, #b1e4e4 57.14286%, #b1e4e4 71.42857%, #73cece 71.42857%, #73cece 85.71429%, #68c9c9 85.71429%, #68c9c9 100%); }
 
 .test-2 {
-  background: orangered;
-  background: linear-gradient(to right, #98b2ce, #98b2ce 14.28571%, #9a8d9e 14.28571%, #9a8d9e 28.57143%, #b66759 28.57143%, #b66759 42.85714%, #ff4500 42.85714%, #ff4500 57.14286%, #814129 57.14286%, #814129 71.42857%, #412115 71.42857%, #412115 85.71429%, #351b11 85.71429%, #351b11 100%); }
+  background: cornflowerblue;
+  background: linear-gradient(to right, #e1e0d7, #e1e0d7 14.28571%, #c7b6c5 14.28571%, #c7b6c5 28.57143%, #a2b0bf 28.57143%, #a2b0bf 42.85714%, #6495ed 42.85714%, #6495ed 57.14286%, #5672a6 57.14286%, #5672a6 71.42857%, #3a4d6e 71.42857%, #3a4d6e 85.71429%, #344564 85.71429%, #344564 100%); }
 
 .test-3 {
-  background: yellow;
-  background: linear-gradient(to right, #a698ce, #a698ce 14.28571%, #9e8d96 14.28571%, #9e8d96 28.57143%, #b6ab59 28.57143%, #b6ab59 42.85714%, #ffff00 42.85714%, #ffff00 57.14286%, #818129 57.14286%, #818129 71.42857%, #414115 71.42857%, #414115 85.71429%, #353511 85.71429%, #353511 100%); }
+  background: #485773;
+  background: linear-gradient(to right, #636cbf, #636cbf 14.28571%, #c423ac 14.28571%, #c423ac 28.57143%, #8c683f 28.57143%, #8c683f 42.85714%, #485773 42.85714%, #485773 57.14286%, #403726 57.14286%, #403726 71.42857%, #0b0a07 71.42857%, #0b0a07 85.71429%, #010101 85.71429%, #010101 100%); }
 
 .test-4 {
-  background: limegreen;
-  background: linear-gradient(to right, #b0b6b2, #b0b6b2 14.28571%, #7496b7 14.28571%, #7496b7 28.57143%, #878887 28.57143%, #878887 42.85714%, #32cd32 42.85714%, #32cd32 57.14286%, #4a604a 57.14286%, #4a604a 71.42857%, #253125 71.42857%, #253125 85.71429%, #1e281e 85.71429%, #1e281e 100%); }
+  background: powderblue;
+  background: linear-gradient(to right, #feffff, #feffff 14.28571%, #e4d5ed 14.28571%, #e4d5ed 28.57143%, #d7cfcf 28.57143%, #d7cfcf 42.85714%, #b0e0e6 42.85714%, #b0e0e6 57.14286%, #9da3a4 57.14286%, #9da3a4 71.42857%, #727a7b 71.42857%, #727a7b 85.71429%, #6a7273 85.71429%, #6a7273 100%); }
 
 .test-5 {
-  background: saddlebrown;
-  background: linear-gradient(to right, #757e90, #757e90 14.28571%, #577654 14.28571%, #577654 28.57143%, #64524a 28.57143%, #64524a 42.85714%, #8b4513 42.85714%, #8b4513 57.14286%, #2f231a 57.14286%, #2f231a 71.42857%, #000000 71.42857%, #000000 85.71429%, #000000 85.71429%, #000000 100%); }
+  background: lightskyblue;
+  background: linear-gradient(to right, #f7f5f1, #f7f5f1 14.28571%, #d7d6d7 14.28571%, #d7d6d7 28.57143%, #b7d1da 28.57143%, #b7d1da 42.85714%, #87cefa 42.85714%, #87cefa 57.14286%, #68a1c4 57.14286%, #68a1c4 71.42857%, #3c779c 71.42857%, #3c779c 85.71429%, #386f90 85.71429%, #386f90 100%); }
 
 .test {
   margin: 1em 0;
@@ -6948,6 +6949,47 @@ select {
   text-decoration: none;
   text-transform: uppercase;
   color: white; }
+
+body {
+  background: #444; }
+
+.aniWrap {
+  margin: 40px auto;
+  display: block;
+  width: 28px; }
+
+.mouse {
+  width: 28px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 14px; }
+
+.scroller {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: black;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  -webkit-animation: scrolls 1.3s ease-out infinite;
+  /* Chrome, Safari, Opera */ }
+
+@-webkit-keyframes scrolls {
+  0% {
+    top: 10px;
+    opacity: 1;
+    height: 4px; }
+
+  95% {
+    top: 18px;
+    opacity: 0;
+    height: 10px; }
+
+  100% {
+    top: 8px;
+    opacity: 1;
+    height: 4px; } }
 
 /* Typography  - Create new type files from Refills code and import them here. Uncomment unused upon Build */
 article.type-system-slab {
@@ -7160,10 +7202,13 @@ body {
   background-color: pink; }
 
 .dennis {
-  background-color: orange; }
+  background-color: gold; }
 
 .bubba {
   height: 30em; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .bubba {
+      height: 15em; } }
 
 /* ---------- Copy */
 .home__greeting--copy {
@@ -7171,8 +7216,8 @@ body {
   text-align: center; }
 
 /* ---------- Headings */
-h1.header__marquee {
-  font-size: 20vw;
+.wrapper__hero h1.header__marquee {
+  font-size: 30vmin;
   width: 60vw;
   color: gold; }
 
@@ -7180,6 +7225,9 @@ h1.home__greeting, h2.home__greeting--sub {
   text-align: center; }
 
 /* ------------------------ Hero panel */
+.wrapper__hero {
+  height: 100vh; }
+
 .hero__wrapper--slide {
   height: 50vh;
   border: 1px dashed red; }

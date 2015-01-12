@@ -159,7 +159,6 @@ $palette-diffs: palette-diff($base-palette);
 .test-3 { @include draw-palette($palette-primary) }
 .test-4 { @include draw-palette($palette-alert) }
 .test-5 { @include draw-palette($palette-button) }
-// .test-6 { @include draw-palette(silver) }
 
 
 // Demo styles

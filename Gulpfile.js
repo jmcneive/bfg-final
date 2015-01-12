@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     bitters = require('node-refills').includePaths,
     plumber = require('gulp-plumber');
+    // autoprefixer = require('gulp-autoprefixer');
 
 // Scripts task
 // Uglifies
@@ -18,6 +19,10 @@ gulp.task('scripts', function() {
 gulp.task('sass', function() {
   gulp.src('assets/scss/**/**/**/*.scss')
     .pipe(plumber())
+    // .pipe(autoprefixer({
+    //     browsers: ['last 2 versions'],
+    //     cascade: false
+    // }))
     .pipe(sass({
       style: 'nested',
       lineNumbers: true
